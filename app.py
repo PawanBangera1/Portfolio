@@ -1,5 +1,4 @@
 from pathlib import Path
-
 import streamlit as st
 from PIL import Image
 
@@ -9,6 +8,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.png"
+
 
 
 # --- GENERAL SETTINGS ---
@@ -26,10 +26,7 @@ SOCIAL_MEDIA = {
     #"Twitter": "https://twitter.com",
 }
 
-
-
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
-
 
 # --- LOAD CSS, PDF & PROFIL PIC ---
 with open(css_file) as f:
@@ -64,8 +61,6 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 
 
-
-
 # ---QUALIFICATIONS ---
 st.write('\n')
 st.subheader("Qulifications")
@@ -78,9 +73,6 @@ st.write("""
           - Course : Bachelor Of Computer Science And Engineering
           - CGPA : 8.4/10""")
 
-
-
-
 st.write('\n')
 
 st.write("✔️", "**Gunashree Pre-University Siddakatte mangalore**")
@@ -89,10 +81,6 @@ st.write("""
           - Course : PCMB
           """)
 
-
-
-
-
 st.write('\n')
 st.write("✔️", "**Gunashree Vidyalaya Siddakatte mangalore**")
 st.write("""
@@ -100,11 +88,6 @@ st.write("""
           - Course : SSLC
           """)
 st.write('\n')
-
-
-
-
-
 
 
 
@@ -120,7 +103,6 @@ st.write(
 - 📚Other Skills: Data Structures, Machine learning, Linex
 """
 )
-
 
 
 
@@ -143,20 +125,11 @@ analysis and communication.
 )
 
 
-
-    
   
-    
-  
-    
-  
-    
-    
 # --- project ---
 st.write('\n')
 st.subheader("Projects")
 st.write("---")
-
 # --- project 1 ----
 st.write("🏆", "**Hotel Management System**")
 st.write("08/2022 - 10/2022")
@@ -185,7 +158,6 @@ st.write("04/2023 - 06/2023")
 st.write(
     """
 - ►Designed and implemented Healthcare Android Application as part of a 2-person team, utilizing Java, XML.
-
 """
 )
 
@@ -202,6 +174,7 @@ Learning(ML) and Streamlit and showcasing expertise in feature engineering and c
 
 
 
+#---Certifications 5
 st.write('\n')
 st.subheader("Certifications")
 st.write("---")
