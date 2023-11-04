@@ -23,7 +23,7 @@ SOCIAL_MEDIA = {
     "Email": "pawanbangera142@gmail.com",
     "LinkedIn": "https://www.linkedin.com/in/k-pawan-bangera-3865441ba/",
     "GitHub": "https://github.com/PawanBangera1",
-    "Twitter": "https://twitter.com",
+    #"Twitter": "https://twitter.com",
 }
 
 
@@ -72,7 +72,7 @@ st.subheader("Qulifications")
 st.write("---")
 
 st.write('\n')
-st.write("✔️", "**Yenepoya Institute Of Technology mangalore**")
+st.markdown("✔️ [**Yenepoya Institute Of Technology mangalore**](https://www.yit.edu.in/)")
 st.write("""
           - Year : 2020-2024
           - Course : Bachelor Of Computer Science And Engineering
@@ -82,6 +82,7 @@ st.write("""
 
 
 st.write('\n')
+
 st.write("✔️", "**Gunashree Pre-University Siddakatte mangalore**")
 st.write("""
           - Year : 2018-2020
@@ -113,10 +114,10 @@ st.subheader("Hard Skills")
 st.write("---")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL,
-- 📊 Data Visulization: PowerBi, MS Excel, Plotly
-- 📚 Modeling: Logistic regression, linear regression, decition trees
-- 🗄️ Databases: MySQL, Firebase
+- 👩‍💻 Programming: Python, SQL, C, HTML, CSS  
+- 📊 Python Libraries: Pandas, NumPy, Matplotlib, Seaborn
+- 🗄️ Databases: MySQL, MONGODB
+- 📚Other Skills: Data Structures, Machine learning, Linex
 """
 )
 
@@ -130,7 +131,7 @@ st.write("---")
 
 # --- JOB 1
 st.markdown("🚧 [**Zephyr Technologies And Solutions PVT LTD**](https://zephyrtechnologies.co/)")
-st.write("**Data Science Intern | August 2023 – September 2023**")
+st.write(  "**Data Science Intern | August 2023 – September 2023**")
 st.write(
     """
 - ►I've collaborated with a team of data scientists to extract valuable insights from large datasets, enhancing decision 
@@ -206,9 +207,9 @@ st.subheader("Certifications")
 st.write("---")
 
 # --- JOB 1
-st.markdown("🚧 [**Python [ Guvi]**](https://youtu.be/Sb0A9i6d320)")
-st.markdown("🚧 [**Spoken Tutorial By IIT Bombay [C, C++, Python]**](https://youtu.be/Sb0A9i6d320)")
-st.markdown("🚧 [**HTML and CSS [ Priple]**](https://youtu.be/Sb0A9i6d320)")
-st.markdown("🚧 [**Google Cloud Big Data and ML and Fundamentals**](https://youtu.be/Sb0A9i6d320)")
-st.markdown("🚧 [**Machine Learning With Python [Cognitive Class]**](https://youtu.be/Sb0A9i6d320)")
+st.write("🚧 **Python [ Guvi]**")
+st.markdown("🚧 **Spoken Tutorial By IIT Bombay [C, C++, Python]**")
+st.markdown("🚧 **HTML and CSS [ Priple]**")
+st.markdown("🚧 **Google Cloud Big Data and ML and Fundamentals**")
+st.markdown("🚧 **Machine Learning With Python [Cognitive Class]**")
 
